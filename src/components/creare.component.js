@@ -29,6 +29,5 @@ if(this.form.isValid()){
 }
 
 
-console.log('Submit', formData)
 
 }
