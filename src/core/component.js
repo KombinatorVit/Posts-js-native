@@ -6,9 +6,9 @@ export class Component {
 
   init() {}
 
-  onShow(){}
+  onShow() {}
 
-  onHide(){}
+  onHide() {}
 
   hide() {
     this.$el.classList.add('hide')
@@ -18,6 +18,5 @@ export class Component {
   show() {
     this.$el.classList.remove('hide')
     this.onShow()
-
   }
 }
